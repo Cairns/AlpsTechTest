@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Police.Common\Police.Common.csproj" />
+		<ProjectReference Include="..\PoliceApi.Common\PoliceApi.Common.csproj" />
+	</ItemGroup>
+
+</Project>
